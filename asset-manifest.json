@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01734579.chunk.css",
+    "main.js": "/static/js/main.6587ca88.chunk.js",
+    "main.js.map": "/static/js/main.6587ca88.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.08dca237.js",
+    "runtime-main.js.map": "/static/js/runtime-main.08dca237.js.map",
+    "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
+    "static/js/2.c1226f04.chunk.js": "/static/js/2.c1226f04.chunk.js",
+    "static/js/2.c1226f04.chunk.js.map": "/static/js/2.c1226f04.chunk.js.map",
+    "static/js/3.2e00f4da.chunk.js": "/static/js/3.2e00f4da.chunk.js",
+    "static/js/3.2e00f4da.chunk.js.map": "/static/js/3.2e00f4da.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.01734579.chunk.css.map": "/static/css/main.01734579.chunk.css.map",
+    "static/js/2.c1226f04.chunk.js.LICENSE.txt": "/static/js/2.c1226f04.chunk.js.LICENSE.txt",
+    "static/media/computer.049603a3.svg": "/static/media/computer.049603a3.svg",
+    "static/media/keble.4ab807ef.png": "/static/media/keble.4ab807ef.png",
+    "static/media/oxford.181f6ded.png": "/static/media/oxford.181f6ded.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08dca237.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.c1226f04.chunk.js",
+    "static/css/main.01734579.chunk.css",
+    "static/js/main.6587ca88.chunk.js"
+  ]
+}
