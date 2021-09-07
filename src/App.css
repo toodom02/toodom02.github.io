@@ -63,6 +63,28 @@
   align-items:center;
 }
 
+@keyframes wipe-enter {
+  0% {
+    transform: scale(0, .025);
+  }
+  50% {
+    transform: scale(1, .025);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .card-animation {
+    animation: wipe-enter 1s 1;
+  }
+}
+
+.media-card {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  opacity: 0.2;
+}
+
 
 #contact {
   min-height: 100vh;
