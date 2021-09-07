@@ -1,38 +1,32 @@
 .main {
   text-align: center;
+  overflow: hidden;
 }
 
 #home {
   min-height: 100vh;
-  width:100%;
   display:flex;
+  justify-content: center;
   align-items:center;
-  text-align:right;
-
-  position:relative;
+  text-align:left;
   overflow: hidden;
 }
 
-#compimg {
-  position:absolute;
-  left:75vh;
-}
-
-
 #scrollbutton {
-  text-align: center;
   position:absolute;
   bottom:0;
+}
 
+#code-img {
+  animation: scroll 100s ease-in-out infinite alternate;
+}
+
+@keyframes scroll {
+  0% {transform: translateY(0%)}
+  100% {transform: translateY(-163%)}
 }
 
 /* for scroll button animation */
-#darkGroup {
-  fill:#002147;
-}
-#lightGroup {
-  fill:#9cbfab;
-}
 #dark1,#light1,#dark2 {
   transition: all 1s ease;
 }
@@ -75,6 +69,18 @@
   width: 100%;
   display:flex;
   align-items:center;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  max-width:64ch;
+}
+
+.form_group_recaptcha > div  {
+  display: flex;
+  place-content: center;
 }
 
 #footer {

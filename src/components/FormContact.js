@@ -20,10 +20,13 @@ function ContactForm() {
     return (
         <React.Fragment>
             <Typography variant="h2">Contact Me</Typography>
-            <form onSubmit={handleSubmit}>
+            <form className="contactform" onSubmit={handleSubmit}>
                 <TextField
                     required
                     label="Name"
+                    id="name"
+                    type="name"
+                    name="name"
                 />
                 <ValidationError
                     prefix="Name"
@@ -61,8 +64,7 @@ function ContactForm() {
                     errors={state.errors}
                 />
                 <br />
-                <br />
-                <ReCAPTCHA
+                <ReCAPTCHA className="form_group_recaptcha"
                     sitekey="6LeI0UwcAAAAAKWyTYxlNRa1nQOe5uBeBpysILLC"
                 />
                 <br />
@@ -83,14 +85,16 @@ export class FormContact extends Component {
     render() {
         return (
             <React.Fragment>
-                <div id="contact">
-                    <Container>
-                        <ContactForm />
-                        <br />
-                        <Footer />
-                    </Container>
-                </div>
-            </React.Fragment>
+                <Container>
+                    <div id="contact">
+                        <Container>
+                            <ContactForm />
+                            <br />
+                            <Footer />
+                        </Container>
+                    </div>
+                </Container>
+            </React.Fragment >
         )
     }
 }
