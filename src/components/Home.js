@@ -23,7 +23,7 @@ export class Home extends Component {
                                 </Typography>
                                 <br />
                                 <Typography variant="h2">
-                                    My name's Dom
+                                    My name is Dom
                                 </Typography>
                             </Grid>
 

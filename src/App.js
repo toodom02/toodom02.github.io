@@ -1,27 +1,19 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbars } from './components/Navbar';
-import { Home } from './components/Home';
-import { About } from './components/About';
-import { Projects } from './components/Projects';
-import { FormContact } from './components/FormContact';
+import { Redirect, Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Main } from './components/Main';
+import { NotFoundPage } from './components/NotFoundPage';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbars />
-
-      <div className="main">
-        <Home />
-
-        <About />
-
-        <Projects />
-
-        <FormContact />
-
-      </div>
-
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/' component={Main} />
+          <Route path="/404" component={NotFoundPage} />
+          <Redirect to="/404" />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

@@ -79,7 +79,7 @@ export class Projects extends Component {
                                             <CardContent>
                                                 <Typography variant="h4">Conway's Game of Life</Typography>
                                                 <Typography variant="subtitle1">
-                                                    A simulation of John Conway's Game of Life cellular automaton, built with javascript.
+                                                    A simulation of John Conway's Game of Life cellular automaton, built with JavaScript.
                                                 </Typography>
                                                 <br />
                                                 <Button variant="outlined" color="primary" href="https://toodom02.github.io/GameOfLife/" target=" _blank" rel="noreferrer">
@@ -105,7 +105,7 @@ export class Projects extends Component {
                                             <CardContent>
                                                 <Typography variant="h4">img-to-css</Typography>
                                                 <Typography variant="subtitle1">
-                                                    img-to-css uses a BFS algorithm with openCV's edge detection to convert images into pure html/css.
+                                                    img-to-css uses a BFS algorithm with openCV's edge detection to convert images into pure CSS/HTML.
                                                 </Typography>
                                                 <br />
                                                 <Button href="https://github.com/toodom02/img-to-css" target=" _blank" rel="noreferrer">

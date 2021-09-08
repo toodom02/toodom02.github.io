@@ -16,16 +16,19 @@ export class About extends Component {
                                 About Me
                             </Typography>
                             <Typography variant="body1">
-                                Originally from East Yorkshire, I'm an undergraduate student at <a href="https://www.keble.ox.ac.uk/" target="_blank" rel="noreferrer" style={{ color: "black" }}>
+                                Originally from East Yorkshire, I'm an undergraduate student at <a href="https://www.keble.ox.ac.uk/" target="_blank" rel="noreferrer">
                                     Keble College, University of Oxford
                                 </a>
                                 .
                                 <br />
                                 <br />
-                                I'm currently studying Computer Science for a four-year masters degree (MCompSci, Computer Science).
+                                I'm currently studying <b>Computer Science</b> for a four-year masters degree (MCompSci, Computer Science).
                                 <br />
                                 <br />
-                                Checkout some of my projects on the next page!
+                                Checkout some of my <a href="/#projects">Projects</a> on the next page!
+                                <br />
+                                <br />
+                                Feel free to <a href="/#contact">Contact Me</a> with the form below.
                             </Typography>
                         </div>
                     </div>

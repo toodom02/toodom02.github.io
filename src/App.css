@@ -1,5 +1,18 @@
-.main {
+.App {
   text-align: center;
+  overflow: hidden;
+}
+
+a {
+  color: inherit !important;
+}
+
+#notFound {
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  text-align:center;
   overflow: hidden;
 }
 
@@ -20,10 +33,9 @@
 #code-img {
   animation: scroll 100s ease-in-out infinite alternate;
 }
-
 @keyframes scroll {
   0% {transform: translateY(0%)}
-  100% {transform: translateY(-163%)}
+  100% {transform: translateY(-160%)}
 }
 
 /* for scroll button animation */
@@ -85,6 +97,9 @@
   opacity: 0.2;
 }
 
+.project-card, .project-card > button{
+  height: 100%;
+}
 
 #contact {
   min-height: 100vh;
@@ -108,7 +123,6 @@
 #footer {
   margin: 20px;
 }
-
 
 .social {
   color: black;
