@@ -1,29 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.2088f0bf.chunk.css",
-    "main.js": "/static/js/main.f110f976.chunk.js",
-    "main.js.map": "/static/js/main.f110f976.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5474563c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5474563c.js.map",
-    "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
-    "static/js/2.b0539e3c.chunk.js": "/static/js/2.b0539e3c.chunk.js",
-    "static/js/2.b0539e3c.chunk.js.map": "/static/js/2.b0539e3c.chunk.js.map",
-    "static/js/3.50832dcc.chunk.js": "/static/js/3.50832dcc.chunk.js",
-    "static/js/3.50832dcc.chunk.js.map": "/static/js/3.50832dcc.chunk.js.map",
+    "main.css": "/static/css/main.b16c4f88.chunk.css",
+    "main.js": "/static/js/main.996fa7ee.chunk.js",
+    "main.js.map": "/static/js/main.996fa7ee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8363e9a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8363e9a.js.map",
+    "static/js/2.766a60fb.chunk.js": "/static/js/2.766a60fb.chunk.js",
+    "static/js/2.766a60fb.chunk.js.map": "/static/js/2.766a60fb.chunk.js.map",
+    "static/js/3.c890ba75.chunk.js": "/static/js/3.c890ba75.chunk.js",
+    "static/js/3.c890ba75.chunk.js.map": "/static/js/3.c890ba75.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.818011ed.chunk.css.map": "/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.2088f0bf.chunk.css.map": "/static/css/main.2088f0bf.chunk.css.map",
-    "static/js/2.b0539e3c.chunk.js.LICENSE.txt": "/static/js/2.b0539e3c.chunk.js.LICENSE.txt",
-    "static/media/computer.1d2dd9e0.svg": "/static/media/computer.1d2dd9e0.svg",
-    "static/media/keble.4ab807ef.png": "/static/media/keble.4ab807ef.png",
+    "static/css/main.b16c4f88.chunk.css.map": "/static/css/main.b16c4f88.chunk.css.map",
+    "static/js/2.766a60fb.chunk.js.LICENSE.txt": "/static/js/2.766a60fb.chunk.js.LICENSE.txt",
+    "static/media/computer.49ce6111.svg": "/static/media/computer.49ce6111.svg",
+    "static/media/glitch.68016550.svg": "/static/media/glitch.68016550.svg",
+    "static/media/keble.0f9d7b4a.png": "/static/media/keble.0f9d7b4a.png",
     "static/media/oxford.181f6ded.png": "/static/media/oxford.181f6ded.png",
     "static/media/scroll.2060becd.svg": "/static/media/scroll.2060becd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5474563c.js",
-    "static/css/2.818011ed.chunk.css",
-    "static/js/2.b0539e3c.chunk.js",
-    "static/css/main.2088f0bf.chunk.css",
-    "static/js/main.f110f976.chunk.js"
+    "static/js/runtime-main.c8363e9a.js",
+    "static/js/2.766a60fb.chunk.js",
+    "static/css/main.b16c4f88.chunk.css",
+    "static/js/main.996fa7ee.chunk.js"
   ]
 }
