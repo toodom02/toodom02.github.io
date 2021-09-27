@@ -15,6 +15,33 @@ export class Projects extends Component {
                                 container
                                 justifyContent="space-evenly"
                                 spacing={6}>
+
+                                <Grid item xs={12} sm={6}>
+                                    <Card className="project-card">
+                                        <CardActionArea>
+                                            <CardMedia
+                                                className="media-card"
+                                                image={
+                                                    'https://raw.githubusercontent.com/toodom02/AroundTheWorld/main/static/logo.png'
+                                                }
+                                            />
+                                            <CardContent>
+                                                <Typography variant="h4">Around the World</Typography>
+                                                <Typography variant="subtitle1">
+                                                    A 3D JavaScript game built with WebGL using the three.js library, and the cannon-es physics engine.
+                                                </Typography>
+                                                <br />
+                                                <Button variant="outlined" color="primary" href="https://toodom02.github.io/AroundTheWorld/" target=" _blank" rel="noreferrer">
+                                                    View Live
+                                                </Button>
+                                                <Button href="https://github.com/toodom02/AroundTheWorld" target=" _blank" rel="noreferrer">
+                                                    GitHub
+                                                </Button>
+                                            </CardContent>
+                                        </CardActionArea>
+                                    </Card>
+                                </Grid>
+
                                 <Grid item xs={12} sm={6}>
                                     <Card className="project-card">
                                         <CardActionArea>
