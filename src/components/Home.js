@@ -1,48 +1,43 @@
-import React, { Component } from 'react';
+import React, { Fragment } from 'react';
 import { Container, Typography, Grid } from '@material-ui/core';
 import { ReactComponent as ComputerSVG } from '../assets/computer.svg';
 import { ReactComponent as ScrollSVG } from '../assets/scroll.svg';
 
-export class Home extends Component {
+const Home = () => {
+    return (
+        <Fragment>
+            <Container>
 
-    render() {
-        return (
-            <React.Fragment>
-                <Container>
+                <div id="home">
+                    <Grid
+                        container
+                        justifyContent="space-evenly"
+                        spacing={3}>
 
-                    <div id="home">
-
-                        <Grid
-                            container
-                            justifyContent="space-evenly"
-                            spacing={3}>
-
-                            <Grid item xs={12} sm={6}>
-                                <Typography variant="h1">
-                                    Hello World
-                                </Typography>
-                                <br />
-                                <Typography variant="h2">
-                                    My name is Dom
-                                </Typography>
-                            </Grid>
-
-                            <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
-                                <ComputerSVG width="340" height="340" />
-                            </Grid>
-
+                        <Grid item xs={12} sm={6}>
+                            <Typography variant="h1">
+                                Hello World
+                            </Typography>
+                            <br />
+                            <Typography variant="h2">
+                                My name is Dom
+                            </Typography>
                         </Grid>
 
+                        <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
+                            <ComputerSVG width="340" height="340" />
+                        </Grid>
 
-                        <a id="scrollbutton" href="#about">
-                            <ScrollSVG />
-                        </a>
-                    </div>
+                    </Grid>
 
-                </Container >
-            </React.Fragment >
-        )
-    }
-}
+                    <a id="scrollbutton" href="#about">
+                        <ScrollSVG />
+                    </a>
+                </div>
 
-export default Home
+            </Container >
+        </Fragment >
+    )
+};
+
+export default Home;

@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Fragment } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Container, Typography, TextField, Button } from '@material-ui/core';
 import ReCAPTCHA from 'react-google-recaptcha';
-import { Footer } from './Footer';
+import Footer from './Footer';
 
-function ContactForm() {
+const ContactForm = () => {
     const [state, handleSubmit] = useForm("xdoyypjr");
     if (state.succeeded) {
         return (
@@ -18,7 +18,7 @@ function ContactForm() {
     }
 
     return (
-        <React.Fragment>
+        <Fragment>
             <Typography variant="h2">Contact Me</Typography>
             <form className="contactform" onSubmit={handleSubmit}>
                 <TextField
@@ -53,7 +53,7 @@ function ContactForm() {
                     multiline
                     label="Message"
                     placeholder="Start typing your message here..."
-                    rows={8}
+                    minRows={8}
                     variant="outlined"
                     id="message"
                     name="message"
@@ -76,27 +76,24 @@ function ContactForm() {
                     Submit
                 </Button>
             </form>
-        </React.Fragment >
+        </Fragment >
     );
 }
 
-export class FormContact extends Component {
+const FormContact = () => {
+    return (
+        <Fragment>
+            <Container>
+                <div id="contact">
+                    <Container>
+                        <ContactForm />
+                        <br />
+                        <Footer />
+                    </Container>
+                </div>
+            </Container>
+        </Fragment >
+    )
+};
 
-    render() {
-        return (
-            <React.Fragment>
-                <Container>
-                    <div id="contact">
-                        <Container>
-                            <ContactForm />
-                            <br />
-                            <Footer />
-                        </Container>
-                    </div>
-                </Container>
-            </React.Fragment >
-        )
-    }
-}
-
-export default FormContact
+export default FormContact;

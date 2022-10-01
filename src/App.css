@@ -99,6 +99,11 @@ a {
 .project-card,
 .project-card > button {
   height: 100%;
+  cursor: auto;
+}
+
+.project-card > button > div > a:nth-child(5) {
+  margin-left: 0.5rem !important;
 }
 
 .media-card {
