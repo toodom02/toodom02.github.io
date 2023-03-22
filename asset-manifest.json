@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.64842a1c.css",
+    "main.css": "/static/css/main.9e773b2e.css",
     "main.js": "/static/js/main.e598d871.js",
     "static/media/computer.svg": "/static/media/computer.a13ea6faeffd1f5e05523c55ebca2311.svg",
     "static/media/oxford.png": "/static/media/oxford.181f6ded963c80edb879.png",
@@ -8,11 +8,11 @@
     "static/media/glitch.svg": "/static/media/glitch.dae37c2d3195b088677126f6e6d2fde3.svg",
     "index.html": "/index.html",
     "static/media/scroll.svg": "/static/media/scroll.c765b6a8c552c400cef5e33acfb997af.svg",
-    "main.64842a1c.css.map": "/static/css/main.64842a1c.css.map",
+    "main.9e773b2e.css.map": "/static/css/main.9e773b2e.css.map",
     "main.e598d871.js.map": "/static/js/main.e598d871.js.map"
   },
   "entrypoints": [
-    "static/css/main.64842a1c.css",
+    "static/css/main.9e773b2e.css",
     "static/js/main.e598d871.js"
   ]
 }
