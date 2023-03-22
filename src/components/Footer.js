@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Container } from '@material-ui/core';
+import { Container } from '@mui/material';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 

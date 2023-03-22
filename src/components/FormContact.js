@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import { Container, Typography, TextField, Button } from '@material-ui/core';
+import { Container, Typography, TextField, Button } from '@mui/material';
 import ReCAPTCHA from 'react-google-recaptcha';
 import Footer from './Footer';
 

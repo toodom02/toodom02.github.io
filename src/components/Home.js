@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Container, Typography, Grid } from '@material-ui/core';
+import { Container, Typography, Grid } from '@mui/material';
 import { ReactComponent as ComputerSVG } from '../assets/computer.svg';
 import { ReactComponent as ScrollSVG } from '../assets/scroll.svg';
 

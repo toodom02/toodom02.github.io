@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Container, Typography } from '@material-ui/core';
+import { Container, Typography } from '@mui/material';
 import kebleImg from "../assets/keble.png";
 import oxfordImg from "../assets/oxford.png";
 
