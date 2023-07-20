@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Container, Typography } from '@mui/material';
 import kebleImg from "../assets/keble.png";
 import oxfordImg from "../assets/oxford.png";
 
 const About = () => {
     return (
-        <Fragment>
+        <>
             <Container>
                 <div id="about">
                     <div className="Content">
@@ -32,7 +32,7 @@ const About = () => {
                     </div>
                 </div>
             </Container>
-        </Fragment>
+        </>
     )
 };
 

@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Container, Typography, Grid } from '@mui/material';
 import { ReactComponent as ComputerSVG } from '../assets/computer.svg';
 import { ReactComponent as ScrollSVG } from '../assets/scroll.svg';
 
 const Home = () => {
     return (
-        <Fragment>
+        <>
             <Container>
 
                 <div id="home">
@@ -36,7 +36,7 @@ const Home = () => {
                 </div>
 
             </Container >
-        </Fragment >
+        </>
     )
 };
 

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Container, Card, CardContent, CardActionArea, CardMedia, Typography, Button, Grid } from '@mui/material';
 
 const ProjectCard = (props) => {
@@ -39,7 +39,7 @@ const ProjectCard = (props) => {
 
 const Projects = () => {
     return (
-        <Fragment>
+        <>
             <Container>
                 <div id="projects">
                     <div className="Content">
@@ -50,6 +50,17 @@ const Projects = () => {
                             justifyContent="space-evenly"
                             spacing={6}>
 
+                            <ProjectCard image='https://raw.githubusercontent.com/ocaml/ocaml-logo/master/Colour/SVG/colour-icon.svg' 
+                                title="OCamlregextkit"
+                                subtitle='An OCaml library providing simple interface to operations on regular expressions, NFAs, and DFAs.'
+                                githublink='https://github.com/toodom02/ocamlregextkit'
+                            />
+                            <ProjectCard image='https://raw.githubusercontent.com/d3/d3-logo/master/d3.svg' 
+                                title="montco-911-vis"
+                                subtitle='An interactive D3 visualisation of emergency 911 calls in Montgomery County, PA.'
+                                link='https://toodom02.github.io/montco-911-vis/'
+                                githublink='https://github.com/toodom02/montco-911-vis'
+                            />
                             <ProjectCard image='https://raw.githubusercontent.com/toodom02/AroundTheWorld/main/static/logo.png' 
                                 title="Around the World"
                                 subtitle='A 3D JavaScript game built with WebGL using the three.js library, and the cannon-es physics engine.'
@@ -62,28 +73,16 @@ const Projects = () => {
                                 link='https://toodom02.github.io/games-js/'
                                 githublink='https://github.com/toodom02/games-js'
                             />
-                            <ProjectCard image='https://raw.githubusercontent.com/toodom02/SightRead/master/public/logo.svg' 
-                                title={<Fragment>S♪ght<font color="#006666"><em>Read</em></font></Fragment>}
-                                subtitle='SightRead is a simple React web app that generates and displays a musicXML file as sheet music, based on user inputs.'
-                                link='https://toodom02.github.io/SightRead/'
-                                githublink='https://github.com/toodom02/SightRead'
-                            />
-                            <ProjectCard image='https://raw.githubusercontent.com/toodom02/GameOfLife/main/src/static/glider.svg' 
-                                title="Conway's Game of Life"
-                                subtitle="A simulation of John Conway's Game of Life cellular automaton, built with JavaScript."
-                                link='https://toodom02.github.io/GameOfLife/'
-                                githublink='https://github.com/toodom02/GameOfLife'
-                            />
                             <ProjectCard image='https://avatars.githubusercontent.com/u/48385221?s=400&v=4' 
                                 title="img-to-css"
-                                subtitle="img-to-css uses a BFS algorithm with openCV's edge detection to convert images into pure CSS/HTML."
+                                subtitle="img-to-css uses a BFS algorithm with openCV's edge detection to convert images into pure CSS/HTML with Python."
                                 githublink='https://github.com/toodom02/img-to-css'
                             />
-                            <ProjectCard image='https://raw.githubusercontent.com/toodom02/KingFisher/master/flasksite/static/kngfshr.png' 
-                                title={<Fragment>King<font color="LightBlue"><b><em>Fisher</em></b></font></Fragment>}
-                                subtitle="Python-Flask based Website developed for the Kingfisher Trust Cafe, with built in CMS."
-                                link='https://kingfisher-o0o1.onrender.com/'
-                                githublink='https://github.com/toodom02/KingFisher'
+                            <ProjectCard image='https://raw.githubusercontent.com/toodom02/SightRead/master/public/logo.svg' 
+                                title={<>S♪ght<font color="#006666"><em>Read</em></font></>}
+                                subtitle='SightRead is a simple React web app that generates and displays a musicXML file as sheet music.'
+                                link='https://toodom02.github.io/SightRead/'
+                                githublink='https://github.com/toodom02/SightRead'
                             />
 
                         </Grid>
@@ -97,7 +96,7 @@ const Projects = () => {
                     </div>
                 </div>
             </Container>
-        </Fragment >
+        </>
     )
 };
 

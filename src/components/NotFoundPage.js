@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Container, Typography, Button } from '@mui/material';
 import { ReactComponent as GlitchSVG } from '../assets/glitch.svg';
 
@@ -16,9 +16,10 @@ const NotFoundPage = () => {
         glitchblueelem.style.transform = `translateX(${(-midX * 3) / 700}px) translateY(${(midY * 4) / 700}px)`;
         glitchredelem.style.transform = `translateX(${(midX * 2) / 700}px) translateY(${(-midY * 5) / 700}px)`;
     };
+    window.addEventListener("mousemove", parallax);
 
     return (
-        <Fragment>
+        <>
             <div id="notFound" >
                 <Container>
                     <GlitchSVG />
@@ -26,10 +27,9 @@ const NotFoundPage = () => {
                     <Typography variant="subtitle1">Something went wrong</Typography>
                     <br />
                     <Button href="/">Home</Button>
-                    {window.addEventListener("mousemove", parallax)}
                 </Container>
             </div >
-        </Fragment >
+        </>
     )
 };
 

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
@@ -6,7 +6,7 @@ import FormContact from './FormContact';
 
 const Main = () => {
     return (
-        <Fragment>
+        <>
             <Home />
 
             <About />
@@ -14,7 +14,7 @@ const Main = () => {
             <Projects />
 
             <FormContact />
-        </Fragment>
+        </>
     )
 };
 

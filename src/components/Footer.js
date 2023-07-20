@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Container } from '@mui/material';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
-        <Fragment>
+        <>
             <div id="footer">
                 <Container>
                     <a href="https://www.linkedin.com/in/dominictoo/" target="_blank" rel="noreferrer"
@@ -18,7 +18,7 @@ const Footer = () => {
                     </a>
                 </Container>
             </div>
-        </Fragment>
+        </>
     )
 };
 

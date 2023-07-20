@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { Container, Typography, TextField, Button } from '@mui/material';
 import ReCAPTCHA from 'react-google-recaptcha';
@@ -8,18 +8,19 @@ const ContactForm = () => {
     const [state, handleSubmit] = useForm("xdoyypjr");
     if (state.succeeded) {
         return (
-            <React.Fragment>
+            <>
                 <Typography variant="h2">
                     Message sent!
                 </Typography>
                 <Typography variant="subtitle1">Thanks for getting in contact!</Typography>
-            </React.Fragment>
+            </>
         );
     }
 
     return (
-        <Fragment>
+        <>
             <Typography variant="h2">Contact Me</Typography>
+            <br />
             <form className="contactform" onSubmit={handleSubmit}>
                 <TextField
                     required
@@ -46,7 +47,6 @@ const ContactForm = () => {
                     field="email"
                     errors={state.errors}
                 />
-                <br />
                 <br />
                 <TextField
                     required
@@ -76,13 +76,13 @@ const ContactForm = () => {
                     Submit
                 </Button>
             </form>
-        </Fragment >
+        </>
     );
 }
 
 const FormContact = () => {
     return (
-        <Fragment>
+        <>
             <Container>
                 <div id="contact">
                     <Container>
@@ -92,7 +92,7 @@ const FormContact = () => {
                     </Container>
                 </div>
             </Container>
-        </Fragment >
+        </>
     )
 };
 
